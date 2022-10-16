@@ -8,4 +8,4 @@ class Figure:
         if isinstance(figure, Figure) is True:
             return self.area + figure.area
         else:
-            raise ValueError
+            raise ValueError('Wrong value given to add_area(), not a figure!')
