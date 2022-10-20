@@ -1,8 +1,7 @@
 class Figure:
-    def __init__(self):
-        self.name = None
-        self.area = None
-        self.perimeter = None
+    @property
+    def area(self):
+        return 0
 
     def add_area(self, figure):
         if isinstance(figure, Figure) is True:
